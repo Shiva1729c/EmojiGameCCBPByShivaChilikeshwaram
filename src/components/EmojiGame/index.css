@@ -1,0 +1,7 @@
+/* Write your code here. */
+
+.game-bg-container {
+  background-image: linear-gradient(to bottom right, #9796f0, #fbc7d4);
+  min-height: 100vh;
+  display: flex;
+}
