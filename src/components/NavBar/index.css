@@ -1,23 +1,30 @@
 /* Write your code here. */
 .app-header {
+  background-color: #9796f0;
+  height: 80px;
   display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: space-between;
-  background-color: #b09ddc;
-  padding: 30px;
-  height: 100px;
 }
 
 .header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff33;
+  width: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.header-name {
   font-family: Roboto;
-  font-size: 18px;
+  font-size: 16px;
   color: #ffffff;
+  font-weight: 400;
 }
 .emoji-logo {
   height: 40px;
   width: 40px;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 .logo-container {

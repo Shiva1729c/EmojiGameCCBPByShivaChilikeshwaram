@@ -1,1 +1,59 @@
 /* Write your code here. */
+* {
+  font-family: Roboto;
+}
+
+.game-result-container {
+  border: 2px solid #ffffff30;
+  margin-top: 50px;
+  display: flex;
+  background-color: #ffffff33;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.game-details-container {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.result-heading {
+  color: #ffffff;
+  margin-bottom: 0px;
+}
+
+.result-description {
+  color: #ffffff;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.result-score {
+  margin-bottom: 10px;
+  margin-top: 0px;
+  font-weight: 600;
+  color: #6a59ff;
+}
+
+.play-button {
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  background-color: #ffce27;
+  width: 80px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 10px;
+  font-size: 12px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: 500;
+}
+
+.result-emoji-img {
+  width: 50%;
+}

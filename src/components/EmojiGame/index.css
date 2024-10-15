@@ -4,4 +4,23 @@
   background-image: linear-gradient(to bottom right, #9796f0, #fbc7d4);
   min-height: 100vh;
   display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.responsive-container {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+}
+
+.emojis-container {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 80px;
+  width: 500px;
 }
